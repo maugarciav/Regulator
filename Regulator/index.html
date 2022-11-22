@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regulator</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Regulator</h1>
+        <div class="text">
+          <span id="value"
+            >Implementar por medio de IoT un foco que sea autoregulable, es
+            decir, emita la luz que sea necesaria según el ambiente y entorno en
+            el que este se encuentre. Esto con el objetivo de reducir el consumo
+            de luz en los hogares alrededor del mundo y generar conciencia sobre
+            esta gran problemática. Atacando el objetivo de desarrollo
+            sostenible 12, Producción y Consumo Responsable.
+          </span>
+        </div>
+        <div class="button-container">
+          <a
+            target="_blank"
+            class="btn counter-btn on"
+            href="http://192.168.0.9/on"
+            >on</a
+          >
+          <a
+            target="_blank"
+            class="btn counter-btn off"
+            href="http://192.168.0.9/off"
+            >off</a
+          >
+          <!-- <button class="btn counter-btn on">on</button>
+          <button class="btn counter-btn off">off</button> -->
+        </div>
+        <div class="button-container">
+          <button class="btn counter-btn decrease">level 1</button>
+          <button class="btn counter-btn reset">level 2</button>
+          <button class="btn counter-btn increase">level 3</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
